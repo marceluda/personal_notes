@@ -13,6 +13,9 @@
     - Emoji: https://www.webpagefx.com/tools/emoji-cheat-sheet/
     - Mastering: https://guides.github.com/features/mastering-markdown/
     - Tablas: https://help.github.com/articles/organizing-information-with-tables/
+  - Tutoriales
+    - http://jmcglone.com/guides/github-pages/
+
 
 
 
