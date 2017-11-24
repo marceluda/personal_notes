@@ -25,3 +25,21 @@ Bajar código desde el respositorio:
 ```bash
 git clone git@github.com:marceluda/personal_notes.git
 ```
+Descartar los ultimos cambios despues del commit
+
+```bash
+git reset HEAD --hard
+```
+
+
+### Seteo de gh-pages
+```bash
+
+git clone git@github.com:marceluda/rp_scope_lock.git
+git checkout --orphan gh-pages
+vim index.md
+git commit -m "initial commit"
+git push -u origin gh-pages
+```
+
+Luego cambias en el settings de github.
