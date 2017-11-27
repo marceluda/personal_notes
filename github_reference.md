@@ -12,6 +12,9 @@
   - Emoji: https://www.webpagefx.com/tools/emoji-cheat-sheet/
   - Mastering: https://guides.github.com/features/mastering-markdown/
   - Tablas: https://help.github.com/articles/organizing-information-with-tables/
+  - Mas preciso:
+    - https://daringfireball.net/projects/markdown/syntax
+    -
 - Tutoriales
   - http://jmcglone.com/guides/github-pages/
 - Editor online de markdown
@@ -25,7 +28,7 @@ Bajar código desde el respositorio:
 ```bash
 git clone git@github.com:marceluda/personal_notes.git
 ```
-Descartar los ultimos cambios despues del commit
+Descartar los últimos cambios después del commit
 
 ```bash
 git reset HEAD --hard
