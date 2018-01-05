@@ -46,3 +46,9 @@ git push -u origin gh-pages
 ```
 
 Luego cambias en el settings de github.
+
+Si al hacer esto te pide login, capaz estas usasndo https. En ese caso, cambiate a ssh:
+```bash
+git config -l
+git config remote.origin.url git@github.com:marceluda/rp_lock-in_pid.git
+```
