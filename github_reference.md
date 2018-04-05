@@ -52,3 +52,24 @@ Si al hacer esto te pide login, capaz estas usasndo https. En ese caso, cambiate
 git config -l
 git config remote.origin.url git@github.com:marceluda/rp_lock-in_pid.git
 ```
+
+
+### SSH oara github
+crear key
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+Agregar [key a github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+```bash
+sudo apt-get install xclip
+# Downloads and installs xclip. If you don't have `apt-get`, you might need to use another installer (like `yum`)
+xclip -sel clip < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
+```
+Ir a [github.com/settings/keys](https://github.com/settings/keys)
+
+y pegar
+
